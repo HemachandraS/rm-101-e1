@@ -10,8 +10,8 @@ const TaskApp = () => {
     <div data-testid="task-app" className={styles.taskApp}>
       {/* Header */}
       <TaskHeader />
-      {/* Add Task */}
-      {/* Tasks */}
+      < AddTask />
+      < Tasks />
     </div>
   );
 };
